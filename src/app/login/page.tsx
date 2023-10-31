@@ -15,7 +15,7 @@ const LoginPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl font-bold mb-4">Login</h1>
-      <div className="w-full max-w-xs">
+      <div className="w-full max-w-xs border rounded-lg p-5">
         <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2 mt-4">Email</label>
         <input
           type="text"
